@@ -1,0 +1,68 @@
+{
+  "name": "madansix",
+  "version": "0.1.0",
+  "description": "Browser-based contig scaffolding via pan-genome gene synteny",
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "author": "Nabil-Fareed Alikhan <nabil@happykhan.com> (https://www.happykhan.com)",
+  "homepage": "https://madansix.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happykhan/madansix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/happykhan/madansix/issues"
+  },
+  "keywords": [
+    "madansix",
+    "bioinformatics",
+    "genomics",
+    "webassembly",
+    "scaffolding",
+    "pan-genome"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "vitest run && eslint . && npm run build"
+  },
+  "dependencies": {
+    "d3-drag": "^3.0.0",
+    "d3-force": "^3.0.0",
+    "d3-selection": "^3.0.0",
+    "d3-zoom": "^3.0.0",
+    "file-saver": "^2.0.5",
+    "graphology": "^0.25.4",
+    "graphology-components": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@playwright/test": "^1.49.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/d3-drag": "^3.0.7",
+    "@types/d3-force": "^3.0.10",
+    "@types/d3-selection": "^3.0.11",
+    "@types/d3-zoom": "^3.0.8",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "jsdom": "^24.1.3",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.11.0",
+    "vite": "^5.4.10",
+    "vitest": "^4.0.18"
+  }
+}
