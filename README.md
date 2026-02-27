@@ -2,7 +2,7 @@
 
 > Contig Scaffolding via Pan-Genome Synteny — in your browser
 
-madansix is a browser-based implementation of [madansi](https://github.com/sanger-pathogens/madansi), reordering and reorienting fragmented bacterial genome assembly contigs using pan-genome gene synteny.
+madansix is a browser-based implementation of [madansi](https://github.com/andrewjpage/madansi), reordering and reorienting fragmented bacterial genome assembly contigs using pan-genome gene synteny.
 
 ## Features
 
@@ -43,12 +43,8 @@ docker run -p 8080:80 madansix
 
 ## Credits
 
-- Original madansi tool: [Joanna Tumelty](https://github.com/sanger-pathogens/madansi), Wellcome Sanger Institute
-- Web app: [Nabil-Fareed Alikhan](https://www.happykhan.com)
-
-## Citation
-
-Tumelty, J. et al. (2021). madansi: Microbial Assembly De-novo And Scaffolding In Silico.
+- Original madansi tool: [Joanna Tumelty](https://github.com/andrewjpage/madansi), Wellcome Sanger Institute
+- Web app: [Andrew Page](https://github.com/andrewjpage)
 
 ## License
 

@@ -4,14 +4,14 @@
   "description": "Browser-based contig scaffolding via pan-genome gene synteny",
   "type": "module",
   "license": "GPL-3.0-only",
-  "author": "Nabil-Fareed Alikhan <nabil@happykhan.com> (https://www.happykhan.com)",
+  "author": "Andrew Page (https://github.com/andrewjpage)",
   "homepage": "https://madansix.vercel.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/happykhan/madansix.git"
+    "url": "https://github.com/andrewjpage/madansix.git"
   },
   "bugs": {
-    "url": "https://github.com/happykhan/madansix/issues"
+    "url": "https://github.com/andrewjpage/madansix/issues"
   },
   "keywords": [
     "madansix",

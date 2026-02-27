@@ -161,8 +161,8 @@ function HowItWorksPage() {
 
       <div className="how-it-works-note">
         <p>
-          <strong>Based on madansi</strong> — Tumelty, J. <em>et al.</em> (2021).
-          madansi: Microbial Assembly De-novo And Scaffolding In Silico. <em>bioRxiv.</em>
+          <strong>Based on <a href="https://github.com/andrewjpage/madansi" target="_blank" rel="noopener noreferrer">madansi</a></strong>{' '}
+          — original tool by Joanna Tumelty and Andrew Page, Wellcome Sanger Institute.
         </p>
       </div>
     </div>
@@ -399,19 +399,11 @@ export default function App() {
         <p>
           madansix &mdash; browser-based contig scaffolding &mdash;{' '}
           <a
-            href="https://github.com/happykhan/madansix"
+            href="https://github.com/andrewjpage/madansix"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
-          </a>
-          {' '}&mdash;{' '}
-          <a
-            href="https://www.biorxiv.org/content/10.1101/2021.07.13.452128"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Paper
           </a>
         </p>
       </footer>

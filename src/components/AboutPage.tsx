@@ -55,16 +55,11 @@ export function AboutPage() {
       </section>
 
       <section className="about-section">
-        <h2 className="about-heading">References</h2>
+        <h2 className="about-heading">Source Code</h2>
         <div className="about-reference">
-          <p className="about-citation">
-            Tumelty, J. <em>et al.</em> (2021).{' '}
-            <strong>madansi: Microbial Assembly De-novo And Scaffolding In Silico.</strong>{' '}
-            <em>bioRxiv.</em>
-          </p>
           <div className="about-links">
             <a
-              href="https://github.com/happykhan/madansi"
+              href="https://github.com/andrewjpage/madansi"
               target="_blank"
               rel="noopener noreferrer"
               className="about-link"
@@ -73,7 +68,7 @@ export function AboutPage() {
               <ExternalLinkIcon />
             </a>
             <a
-              href="https://github.com/happykhan/madansix"
+              href="https://github.com/andrewjpage/madansix"
               target="_blank"
               rel="noopener noreferrer"
               className="about-link"
@@ -102,15 +97,15 @@ export function AboutPage() {
             </div>
           </li>
           <li className="about-author">
-            <div className="about-author-name">Nabil-Fareed Alikhan</div>
+            <div className="about-author-name">Andrew Page</div>
             <div className="about-author-role">
-              Web app author &mdash; Senior Bioinformatician,{' '}
+              Web app author &mdash;{' '}
               <a
-                href="https://www.cgps.group/"
+                href="https://github.com/andrewjpage"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CGPS, University of Oxford
+                github.com/andrewjpage
               </a>
             </div>
           </li>
