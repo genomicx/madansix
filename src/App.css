@@ -801,3 +801,33 @@
 .app-footer a:hover {
   color: var(--gx-accent-hover);
 }
+
+/* Shared theme colours without changing the original layout. */
+.app-header { color: var(--gx-nav-text); }
+.app-header .subtitle, .app-header .tab-btn, .app-header .theme-toggle {
+  color: var(--gx-nav-muted);
+}
+.app-header .app-title-accent, .app-header .tab-btn--active,
+.app-header .tab-btn:hover, .app-header .theme-toggle:hover {
+  color: var(--gx-nav-text);
+}
+.app-header .tab-btn--active { border-bottom-color: var(--gx-nav-text); }
+.app-header .theme-toggle { border-color: #59616d; }
+.app-header .theme-toggle:hover { background: #303640; }
+button { font-family: var(--gx-font-sans); }
+.btn-run, .btn-download { background: #245db4; color: #fff; }
+.btn-run:hover:not(:disabled), .btn-download:hover { background: #1c4b94; }
+.btn-download--secondary { background: transparent; color: var(--gx-accent); }
+.btn-download--secondary:hover { background: var(--gx-accent-dim); }
+.btn-run:disabled, .log-copy-btn:disabled {
+  background: var(--gx-disabled-bg);
+  color: var(--gx-disabled-text);
+  opacity: 1;
+}
+.log-body { font-size: 14px; }
+/* Keep original button line boxes when switching from the system font. */
+.tab-btn { line-height: 16px; }
+.btn-run { line-height: 19px; }
+@media (max-width: 768px) {
+  .btn-run { line-height: 18.5px; }
+}

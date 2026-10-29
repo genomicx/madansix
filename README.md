@@ -4,6 +4,8 @@
 
 madansix is a browser-based implementation of [madansi](https://github.com/andrewjpage/madansi), reordering and reorienting fragmented bacterial genome assembly contigs using pan-genome gene synteny.
 
+Live application: https://madansix.genomicx.org
+
 ## Features
 
 - Pan-genome guided contig scaffolding
@@ -49,3 +51,7 @@ docker run -p 8080:80 madansix
 ## License
 
 GPL-3.0-only
+
+## Hosting
+
+Cloudflare Pages serves `dist` after `npm run build`, using Node.js 24. The biowasm CDN and client-side analysis remain unchanged.

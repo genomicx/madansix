@@ -5,13 +5,13 @@
   "type": "module",
   "license": "GPL-3.0-only",
   "author": "Andrew Page (https://github.com/andrewjpage)",
-  "homepage": "https://madansix.vercel.app",
+  "homepage": "https://madansix.genomicx.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrewjpage/madansix.git"
+    "url": "https://github.com/genomicx/madansix.git"
   },
   "bugs": {
-    "url": "https://github.com/andrewjpage/madansix/issues"
+    "url": "https://github.com/genomicx/madansix/issues"
   },
   "keywords": [
     "madansix",
@@ -31,6 +31,7 @@
     "check": "vitest run && eslint . && npm run build"
   },
   "dependencies": {
+    "@genomicx/ui": "0.10.1",
     "d3-drag": "^3.0.0",
     "d3-force": "^3.0.0",
     "d3-selection": "^3.0.0",

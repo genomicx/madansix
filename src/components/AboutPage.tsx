@@ -68,7 +68,7 @@ export function AboutPage() {
               <ExternalLinkIcon />
             </a>
             <a
-              href="https://github.com/andrewjpage/madansix"
+              href="https://github.com/genomicx/madansix"
               target="_blank"
               rel="noopener noreferrer"
               className="about-link"

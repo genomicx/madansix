@@ -399,7 +399,7 @@ export default function App() {
         <p>
           madansix &mdash; browser-based contig scaffolding &mdash;{' '}
           <a
-            href="https://github.com/andrewjpage/madansix"
+            href="https://github.com/genomicx/madansix"
             target="_blank"
             rel="noopener noreferrer"
           >
